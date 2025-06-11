@@ -1,0 +1,66 @@
+/* 1. Target body */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #7251B5;
+}
+
+/* 2. h1, h2, h3 */
+h1, h2, h3 {
+  margin-bottom: 0;
+}
+
+/* 3. ID: #company-name */
+#company-name {
+  font-size: 1.5rem;
+}
+
+/* 4. header and footer */
+header, footer {
+  background-color: #000;
+  color: #DEC9E9;
+}
+
+/* 5. Class: .wrapper */
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* 6. Lists: ul and ol */
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* 7. Descendant selector: nav links */
+nav a {
+  color: #DEC9E9;
+  text-decoration: none;
+}
+
+/* 8. Adjacent selector: section next to #intro */
+#intro + section {
+  background-color: #000;
+  color: #DEC9E9;
+}
+
+/* 9. Child selector: img inside article */
+article > img {
+  width: 150px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin-top: 1em;
+}
+
+/* 10. Even li in ordered list */
+ol li:nth-child(even) {
+  color: #dc33dc;
+}
+
+/* 11. img inside main */
+main > img {
+  width: 100%;
+}
